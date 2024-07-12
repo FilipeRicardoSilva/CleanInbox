@@ -66,24 +66,4 @@ for serach in list_search:
 
     execute()
 
-# try:
-#     # LIMPANDO LIXEIRA
-#     while True:
-#
-#         pa.click(x=76, y=403)  # Mais
-#         pa.click(x=88, y=597)  # Lixeira Icon
-#         pa.click(x=301, y=226)  # Selecionar
-#         pa.click(x=350, y=361)  # Tipo
-#         time.sleep(0.3)
-#
-#         button = pa.locateCenterOnScreen('button_excluir.png', confidence=0.7)
-#
-#         if button is None:
-#             break
-#
-#         pa.click(x=395, y=229)
-#         time.sleep(0.7)
-#
-# except pa.ImageNotFoundException:
-#     print("Imagem 'button_excluir.png' não encontrada na tela LIXEIRA.")
-#     time.sleep(0.5)
+
